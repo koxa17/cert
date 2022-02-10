@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Gothic';
+    src: url('./Gothic/GOTHIC.TTF.eot');
+    src: url('./Gothic/GOTHIC.TTF.eot?#iefix') format('embedded-opentype'),
+    url('./Gothic/CenturyGothic.woff') format('woff'),
+    url('./Gothic/CenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothicBold';
+    src: url('./GothicBold/GOTHICB.TTF.eot');
+    src: url('./GothicBold/GOTHICB.TTF.eot?#iefix') format('embedded-opentype'),
+    url('./GothicBold/CenturyGothic-Bold.woff') format('woff'),
+    url('./GothicBold/CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothicBoldItalic';
+    src: url('./GothicBoldItalic/GOTHICBI.TTF.eot');
+    src: url('./GothicBoldItalic/GOTHICBI.TTF.eot?#iefix') format('embedded-opentype'),
+    url('./GothicBoldItalic/CenturyGothic-BoldItalic.woff') format('woff'),
+    url('./GothicBoldItalic/CenturyGothic-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothicItalic';
+    src: url('./GothicItalic/GOTHICI.TTF.eot');
+    src: url('./GothicItalic/GOTHICI.TTF.eot?#iefix') format('embedded-opentype'),
+    url('./GothicItalic/CenturyGothic-Italic.woff') format('woff'),
+    url('./GothicItalic/CenturyGothic-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
