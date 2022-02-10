@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Посади дерево!</title>
-
     <meta property="og:title" content="Посади дерево!">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://koxa17.github.io/cert/img/logo.jpg">
 
 
     <link rel="stylesheet" href="./fonts/fonts.css">
@@ -144,7 +144,7 @@
             font-family: GothicBold;
         }
 
-        .name:empty{
+        .name:empty {
             margin-left: 390px;
         }
 
@@ -171,16 +171,16 @@
             flex-direction: column;
         }
 
-         .info span.url {
-             text-decoration: underline;
-         }
+        .info span.url {
+            text-decoration: underline;
+        }
 
         .name-director {
             font-size: 1.6rem;
             line-height: 2rem;
         }
 
-        .director{
+        .director {
             font-size: 0.8rem;
             line-height: 1.2rem;
         }
@@ -281,6 +281,15 @@
                 display: none;
             }
 
+            .share-block a img {
+                width: 48px;
+                height: 48px;
+            }
+
+            a .link__share:not(:last-child) {
+                margin-right: 5pt;
+            }
+
         }
     </style>
     <!--    <script>-->
@@ -290,8 +299,21 @@
 <body>
 
 <div class="share-block">
-    <div class="share-text">Поделиться: </div>
-    <div class="ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,facebook,odnoklassniki,twitter" data-copy="last" data-hashtags:twitter="treellion,посади дерево,восстановление лесов" data-title="Посади дерево!" data-access-token:facebook="fb-token" data-image=""></div>
+    <div class="share-text">Поделиться:</div>
+    <div class="ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,facebook,odnoklassniki,twitter" data-copy="last" data-hashtags:twitter="treellion,посади дерево,восстановление лесов" data-title="Посади дерево!" data-access-token:facebook="fb-token" data-image="https://koxa17.github.io/cert/img/logo.jpg"></div>
+<!--    <a href="" class="link__share">-->
+<!--        <img src="./img/icon/icon-vkontakte.png" alt="">-->
+<!--    </a>-->
+<!--    <a href="https://www.facebook.com/sharer/sharer.php?u=Посади дерево!" class="link__share">-->
+<!--        <img src="./img/icon/icon-facebook.png" alt="">-->
+<!--    </a>-->
+<!--    <a href="" class="link__share">-->
+<!--        <img src="./img/icon/icon-odnoklassniki.png" alt="">-->
+<!--    </a>-->
+<!--    <a href="" class="link__share">-->
+<!--        <img src="./img/icon/icon-twitter.png" alt="">-->
+<!--    </a>-->
+
 </div>
 
 <div class="page-border">
@@ -315,9 +337,9 @@
                     </div>
 
                     <div class="block-contribution">
-                            <p class="contribution-title mb">
-                                Внес(ла) вклад в восстановление лесных массивов российской федерации
-                            </p>
+                        <p class="contribution-title mb">
+                            Внес(ла) вклад в восстановление лесных массивов российской федерации
+                        </p>
                         <p class="paragraph contribution-paragraph mb">
                             и компенсацию углеродного следа, приняв участие в комплексной программе Treellion по высадке
                             деревьев с предварительной почвоподготовкой
@@ -365,8 +387,6 @@
     </div>
 
 </div>
-
-
 
 
 </body>
