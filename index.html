@@ -54,7 +54,6 @@
             border: 2px solid black;
             width: fit-content;
             height: fit-content;
-            margin-bottom: 15pt;
         }
 
         .page[size="A4"] {
@@ -228,6 +227,7 @@
         .share-block {
             display: flex;
             align-items: center;
+            margin-bottom: 15pt;
         }
 
         .share-text {
@@ -274,6 +274,10 @@
                 page-break-after: always;
             }
 
+            .page-border {
+                border: none;
+            }
+
             .share-block {
                 display: none;
             }
@@ -285,6 +289,11 @@
     <!--    </script>-->
 </head>
 <body>
+
+<div class="share-block">
+    <div class="share-text">Поделиться: </div>
+    <div class="ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,facebook,odnoklassniki,twitter" data-copy="last"></div>
+</div>
 
 <div class="page-border">
 
@@ -358,10 +367,7 @@
 
 </div>
 
-<div class="share-block">
-    <div class="share-text">Поделиться: </div>
-    <div class="ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,facebook,odnoklassniki,twitter" data-copy="last"></div>
-</div>
+
 
 
 </body>
